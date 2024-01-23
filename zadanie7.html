@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheet1</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="width: fit-content; margin: auto;">Sheet1</h1>
+    <table border="1" cellpadding="1" cellspacing="1" style="height:100px; width:500px">
+        <thead>
+            <tr>
+                <th rowspan="2">Город</th>
+                <th rowspan="2">Команда</th>
+                <th colspan="3" scope="col">Месяцы&nbsp;</th>
+                <th rowspan="2">Всего</th>
+            </tr>
+            <tr>
+                <th scope="col">Январь</th>
+                <th scope="col">Февраль</th>
+                <th scope="col">Март</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Калачинск</td>
+                <td style="text-align:left">Коло$$</td>
+                <td style="text-align:right">12</td>
+                <td style="text-align:right">20</td>
+                <td style="text-align:right">15</td>
+                <td style="text-align:right">47</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">БрутALL</td>
+                <td style="text-align:right">25</td>
+                <td style="text-align:right">11</td>
+                <td style="text-align:right">44</td>
+                <td style="text-align:right">80</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">D@rtВудерр</td>
+                <td style="text-align:right">14</td>
+                <td style="text-align:right">15</td>
+                <td style="text-align:right">16</td>
+                <td style="text-align:right">45</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="text-align:left">Кривск</td>
+                <td style="text-align:left">ОтмороZZ</td>
+                <td style="text-align:right">28</td>
+                <td style="text-align:right">31</td>
+                <td style="text-align:right">5</td>
+                <td style="text-align:right">64</td>
+            </tr>
+            <tr>
+                <td style="height:0px; text-align:left">Белл</td>
+                <td style="text-align:right">23</td>
+                <td style="text-align:right">25</td>
+                <td style="text-align:right">20</td>
+                <td style="text-align:right">68</td>
+            </tr>
+            <tr>
+                <th colspan="2" rowspan="1" style="text-align:right; vertical-align:middle">Всего</th>
+                <th style="text-align:right">102</th>
+                <th style="text-align:right">102</th>
+                <th style="text-align:right">100</th>
+                <th style="text-align:right">304</th>
+            </tr>
+        </tbody>
+    </table>    
+</body>
+</html>
