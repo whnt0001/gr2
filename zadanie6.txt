@@ -2,5 +2,5 @@
     SELECT * FROM users - выбор всех элементов из таблицы users
 Запрос с использованием алиас столбца 
     SELECT name AS Name FROM users - выбор столбца name из таблицы users, столбец name будет иметь заголовок Name
-Запрос с использованием алас таблицы 
+Запрос с использованием алас таблицы - будут выведены поля, значения которых совпадают 
     SELECT u.user_id, u.name, w.work_id, w.work_name FROM users u INNER JOIN work w
