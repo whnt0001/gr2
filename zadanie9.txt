@@ -1,8 +1,8 @@
 1) Добавить удалённый репозиторий; 
-git remote add
+git remote add rp <ссылка>
 2) просмотреть удалённый репозиторий; 
-git remote -v
+git remote show origin
 3) переименовать удалённый репозиторий; 
-git remote rename
+git remote rename rp rp1
 4) удалить удалённый репозиторий
-git remote rm
+git remote rm pr1
