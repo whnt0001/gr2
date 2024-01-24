@@ -5,6 +5,6 @@ ls > name.txt
 3) переименовать файл; 
 mv name.txt namefile.txt
 4) изменить разрешения файла; 
-mv namefile.txt namefile.py
+chmod -R 755 namefile.py
 5) удалить файл
 rm namefile.py
